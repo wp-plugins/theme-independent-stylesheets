@@ -1,7 +1,7 @@
 === Theme-Independent Stylesheets ===
 Contributors: jshoptaw
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=jakob%2eshoptaw%40gmail%2ecom&lc=US&item_name=Jakob%20Shoptaw&item_number=WP%20Plugin%3a%20TISS&no_note=0&cn=Comments%3a&no_shipping=1&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
-Tags: css, stylesheets
+Tags: css, stylesheet, stylesheets
 Tested up to: 4.1
 Stable tag: 1.0.0
 License: GPLv2 or later
