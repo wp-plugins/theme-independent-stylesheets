@@ -1,6 +1,6 @@
 <?php
 define( 'TISSHEETS_TEXT_DOMAIN', 'theme_independent_stylesheets_textdomain' );
-define( 'TISSHEETS_PLUGIN_NAME', __( 'Theme-Independent Stylesheets', TISSHEETS_TEXT_DOMAIN ) );
+define( 'TISSHEETS_PLUGIN_NAME', 'Theme Independet Stylesheets' );
 define( 'TISSHEETS_PLUGIN_BASENAME', $plugin_basename );
 define( 'TISSHEETS_PATH', plugin_dir_path( dirname( __FILE__ ) ) );
 define( 'TISSHEETS_URL', plugin_dir_url( dirname( __FILE__ ) ) );

@@ -3,7 +3,7 @@
  * Plugin Name: Theme-Independent Stylesheets
  * Plugin URI: https://github.com/jshoptaw/theme-independent-stylesheets
  * Description: Allows for use of uploaded stylesheets (.css files) to be used alongside any theme
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Jakob Shoptaw
  * Text Domain: theme_independent_stylesheets_textdomain
  * Domain Path: /locale/
@@ -30,7 +30,7 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); // Block direct acce
 
 $plugin_basename = plugin_basename( __FILE__ );
 
-require_once( 'inc/definitions.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'inc/definitions.php' );
 
 require_once( TISSHEETS_CLASSES . 'class-tissheets-plugin-functions.php' ); // Various plugin functions
 
