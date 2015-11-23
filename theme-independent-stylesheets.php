@@ -3,7 +3,7 @@
  * Plugin Name: Theme-Independent Stylesheets
  * Plugin URI: https://github.com/jshoptaw/theme-independent-stylesheets
  * Description: Allows for use of uploaded stylesheets (.css files) to be used alongside any theme
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Jakob Shoptaw
  * Text Domain: theme_independent_stylesheets_textdomain
  * Domain Path: /locale/

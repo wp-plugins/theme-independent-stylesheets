@@ -106,13 +106,13 @@ if ( ! class_exists( 'TISSheets_Settings' ) ) {
 		public function create_options_page() {
 			?>
 			<div class="wrap">
-				<h2><?php _e( 'Theme-Independent Stylesheets', TISSHEETS_TEXT_DOMAIN ); ?></h2>
+				<h1><?php _e( 'Theme-Independent Stylesheets', TISSHEETS_TEXT_DOMAIN ); ?></h1>
 
 				<form method="post" action="options.php">
 
 					<hr />
 
-					<h3><?php _e( 'Stylesheet Settings <a href="#help" title="View Help Section"><span class="dashicons dashicons-editor-help"></span></a>', TISSHEETS_TEXT_DOMAIN ); ?></h3>
+					<h2><?php _e( 'Stylesheet Settings <a href="#help" title="View Help Section"><span class="dashicons dashicons-editor-help"></span></a>', TISSHEETS_TEXT_DOMAIN ); ?></h2>
 					<?php
 					$stylesheets = get_posts( array(
 						'posts_per_page' => -'1',

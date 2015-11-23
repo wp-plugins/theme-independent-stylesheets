@@ -1,6 +1,6 @@
 <hr />
 
-<h3 id="help"><?php _e( 'Help', TISSHEETS_TEXT_DOMAIN ); ?></h3>
+<h2 id="help"><?php _e( 'Help', TISSHEETS_TEXT_DOMAIN ); ?></h2>
 
 <p><?php _e( 'Explanation of the different stylesheet settings.', TISSHEETS_TEXT_DOMAIN ); ?></p>
 
