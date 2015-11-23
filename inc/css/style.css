@@ -1,0 +1,124 @@
+/**
+ * Settings section
+ */
+h3 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.tissheets-stylesheet input[type="text"],
+.tissheets-stylesheet input[type="number"] {
+	width: 100%;
+}
+
+#tissheets-handle-col,
+#tissheets-name-col {
+	width: 15%;
+}
+
+#tissheets-id-col,
+#tissheets-active-col,
+#tissheets-load-order-col {
+	width: 6%;
+}
+
+#tissheets-version-col {
+	width: 8%;
+}
+
+	.tissheets-version input[type="text"] {
+		display: inline-block;
+		max-width: 55%;
+	}
+
+	.tissheets-media-type-specific-contain {
+		margin: 5px 0 0;
+	}
+
+	.tissheets-media-type-specific-contain input {
+		margin: 1px 0 0;
+		vertical-align: top;
+	}
+
+#tissheets-media-types-col,
+#tissheets-location-col {
+	width: 12%;
+}
+
+#tissheets-ie-conditional-comment-col {
+	width: 20%;
+}
+
+	.tissheets-ie-conditional-comment-contain {
+		display: block;
+		font: .85em monospace;
+	}
+
+		.tissheets-ie-conditional-comment-contain:before {
+			content: "<!--[if ";
+		}
+
+		.tissheets-ie-conditional-comment-contain:after {
+			content: "]>";
+		}
+
+			.tissheets-ie-conditional-comment .tissheets-ie-conditional-comment-contain input,
+			.tissheets-ie-conditional-comment .tissheets-ie-conditional-comment-contain input:focus {
+				background: transparent;
+				border: 1px solid;
+				border-width: 0 0 1px;
+				box-shadow: none;
+				color: inherit;
+				display: inline-block;
+				font: inherit;
+				padding: 1px 0;
+				width: auto;
+			}
+
+			.tissheets-ie-conditional-comment .tissheets-ie-conditional-comment-contain input:focus {
+				border-width: 0 0 2px;
+			}
+
+
+/**
+ * Help section
+ */
+#help-table dt {
+	font-weight: bold;
+	margin: 5px 0 0;
+}
+
+.tt {
+	font-family: monospace;
+}
+
+blockquote,
+pre {
+	background: rgba(0, 0, 0, 0.07);
+	border-left: 5px solid #ccc;
+	padding: 20px 25px;
+	position: relative;
+}
+
+	blockquote:before,
+	blockquote:after {
+		color: #ccc;
+		font-size: 40px;
+		position: absolute;
+	}
+
+	blockquote:before {
+		content: "\201C";
+		top: 0;
+		left: 10px;
+	}
+
+	blockquote:after {
+		content: "\201D";
+		right: 10px;
+		bottom: 0;
+	}
+
+	pre code {
+		background: transparent;
+	}
